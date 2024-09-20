@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 0 10rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.back {
+  background-image: url(../assets/images/collection-background.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 38rem;
+  height: 39rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 4.7rem;
+  text-transform: capitalize;
+  text-decoration: none;
+  text-shadow: black 3rem;
+  list-style: none;
+}
+
+ul li:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.summer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  bottom: 15rem;
+  margin: 0 10rem;
+}
+
+.image1 img {
+  width: 21.7rem;
+  position: relative;
+  bottom: 16rem;
+  right: 4rem;
+}
+
+.shoes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  bottom: 10rem;
+}
+
+.shoes .shoe1 {
+  background-color: rgb(218, 211, 247);
+  padding: 1rem;
+  border-radius: 1rem;
+  position: relative;
+  right: 13rem;
+  top: 2rem;
+}
+
+.shoes .shoe1 img {
+  width: 5rem;
+}
+
+.new {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 11rem;
+  gap: 0.9rem;
+}
+
+.new h5 {
+  color: red;
+}
+
+.new h1 {
+  background-color: white;
+  width: 30rem;
+  padding: 3px;
+  font-size: 3.6rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.new h2 span {
+  color: red;
+  font-size: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 2px;
+}
+
+.new h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+.new p {
+  color: gray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: small;
+}
+
+.btn {
+  width: 8rem;
+  background-color: red;
+  color: white;
+  padding: 9px;
+  border-radius: 0.9rem;
+  border: transparent;
+  cursor: pointer;
+}
+
+.num {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  position: relative;
+  top: 2rem;
+}
+
+footer {
+  margin: 0 10rem;
+  position: relative;
+  bottom: 16rem;
+  cursor: pointer;
+}
+
+footer:hover {
+  color: red;
+}
